@@ -1,7 +1,6 @@
 package academy.learnprogramming;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class SortedArray {
@@ -23,12 +22,14 @@ public class SortedArray {
             int temp=cloned[left];
             cloned[left]=cloned[right];
             cloned[right]=temp;
+            ++left;
+            --right;
         }
         return cloned;
     }
-    public static Integer[] getIntegers(int size){
+    public static int[] getIntegers(int size){
         Scanner scanner=new Scanner(System.in);
-        Integer[] arr=new Integer[size];
+        int[] arr=new int[size];
         for(int i=0;i<arr.length;++i){
             arr[i]=scanner.nextInt();
         }
