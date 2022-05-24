@@ -11,7 +11,12 @@ public class SortDemo {
         lst.add(5);
         lst.add(50);
 
+        //+ sort based on natural sorting order
+        Collections.sort(lst);
+        System.out.println(lst);
+
         Collections.sort(lst,new MyComparator());
+
 
         System.out.println(lst);
 

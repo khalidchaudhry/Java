@@ -36,6 +36,10 @@ public class TreeSetDemo {
         treeSet4.add("m");
 
 
+        TreeSet treeSet5=new TreeSet();
+        treeSet5.add(new StringBuilder("testing"));
+
+
 
 
 

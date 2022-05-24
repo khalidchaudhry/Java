@@ -1,6 +1,6 @@
 package com.khalid;
 
-import java.util.Hashtable;
+import java.util.*;
 
 public class HashTableDemo {
     public static void main(String[] args) {
@@ -9,6 +9,8 @@ public class HashTableDemo {
         hashtable.put("hello","test2");
         //+ Below line will throw null pointer exception
         //hashtable.put(null,"test");
+
+
 
 
 
