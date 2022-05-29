@@ -2,7 +2,7 @@ package com.khalid;
 
 public class Main {
     public static void main(String[] args) {
-        
+
         Bank boa=new BankOfAmerica();
         System.out.println(boa.getRateOfInterest());
         Bank citiBank=new CitiBank();
