@@ -7,7 +7,7 @@ import java.util.function.Predicate;
 public class PredicateInterfaceDemo {
     public static void main(String[] args) {
 
-        //+ Example 1
+        //+ Example 1 Number is greater than 10
         Predicate<Integer> example1=(x)->x>10;;
         System.out.println(example1.test(9));//false
         System.out.println(example1.test(100));//true
@@ -44,6 +44,7 @@ public class PredicateInterfaceDemo {
         integers.add(100);
         integers.add(500);
         for(Integer i:integers){
+            //! integer needs tobe even and greater than 50
             if(evenNumber.and(greaterThen50).test(i)){
                 System.out.println(i);
             }
