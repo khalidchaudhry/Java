@@ -25,6 +25,9 @@ public class welcomeservlet extends HttpServlet {
 		out.println("<body style=background-color:lightgreen;text-align:center>");
 		out.println("<h1>edureka limited</h1>");
 		out.println("<img src=images/edureka.jpeg>");
+		out.println("<hr>");
+		out.println("<p style=text-align:left;font-size:20px> hi "+request.getParameter("txt_uid")+"</p>");
+		out.println("</hr>");
 		out.println("</body>");
 		out.println("</html>");
 	}
