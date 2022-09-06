@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="usr1" class="co.edureka.khalid.core.beans.User" lazy-init="true" scope="prototype">
+   <property name="firstName" value="Khalid"/> 
+   <property name="lastName" value="Chaudhry"/>
+</bean>
+
+<bean id="usr2" class="co.edureka.khalid.core.beans.User">
+   <constructor-arg value="Babar"/>
+   <constructor-arg value="Azam"/>
+</bean>
+
+</beans>

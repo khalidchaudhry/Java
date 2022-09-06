@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="apollo" class="co.edureka.khalid.core.beans.Hospital">
+		<property name="hospitalName" value="Apollo Hospitals"/>
+		<property name="deptHeads">			
+			<map>			
+				<entry key="Reception" value="Ms.Sumera"></entry>
+				<entry key="Pharmacy" value="Mr. Ahmed"></entry>
+				<entry key="Operation Theatre" value="Yahya Afzal"></entry>
+			</map>
+		</property>
+	</bean>
+
+</beans>
