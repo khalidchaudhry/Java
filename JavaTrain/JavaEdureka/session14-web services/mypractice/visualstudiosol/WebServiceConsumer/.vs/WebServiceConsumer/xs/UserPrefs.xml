@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{2847CD01-EE01-4665-B805-D777CF5C090B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebServiceConsumer/Program.cs">
+    <Files>
+      <File FileName="WebServiceConsumer/Program.cs" Line="10" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebServiceConsumer" expanded="True">
+            <Node name="WebServiceConsumer" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WebServiceConsumer FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
